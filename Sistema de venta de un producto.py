@@ -7,12 +7,13 @@ cantidad = int(input('Cuantos quiere? '))
 IVA = 0.16
 DESCUENTO = 0.10
 
+#Aqui tenemos la lista de tipos de datos
 print('TIPOS DE DATOS')
 print(type(cantidad))
 print(type(IVA))
 print(type(nombre))
 
-
+#Aqui teneemos el ticket con el resumen de todo
 print("|Ticket|")
 
 resumen = print("Compra a nombre de ", nombre, "Quien compro un total de ", cantidad, nombre_producto)
